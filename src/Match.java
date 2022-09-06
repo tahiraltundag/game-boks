@@ -36,7 +36,7 @@ public class Match {
     }
 
     boolean isCheck(){
-        return (this.hamilton.weight >= minWeight && this.rosberg.weight <= maxWeight) && (this.rosberg.weight >= minWeight && this.rosberg.weight <= maxWeight);
+        return (this.hamilton.weight >= minWeight && this.hamilton.weight <= maxWeight) && (this.rosberg.weight >= minWeight && this.rosberg.weight <= maxWeight);
     }
 
     boolean isWin(){
